@@ -1,0 +1,1 @@
+*wet_test_pluggable_ui* is a plugin for "Textpattern CMS":http://textpattern.com/ which aids during the development of the core by responding to various 'pluggable_ui' hooks.

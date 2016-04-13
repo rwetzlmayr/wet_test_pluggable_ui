@@ -32,7 +32,7 @@ This plug-in is released under the Gnu General Public Licence.
 
 # --- BEGIN PLUGIN CODE ---
 
-class wet_pluggable_ui
+class wet_test_pluggable_ui
 {
     // An array of 'event' => ['step', 'step',...] hooks we want to listen to.
     var $events = array(
@@ -66,7 +66,7 @@ class wet_pluggable_ui
     {
         foreach ($this->events as $event => $steps) {
             foreach ($steps as $step) {
-                register_callback(array('wet_pluggable_ui', 'render'), $event, $step);
+                register_callback(array('wet_test_pluggable_ui', 'render'), $event, $step);
             }
         }
     }
@@ -86,6 +86,6 @@ class wet_pluggable_ui
     }
 }
 
-new wet_pluggable_ui();
+new wet_test_pluggable_ui();
 
 # --- END PLUGIN CODE ---

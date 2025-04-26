@@ -1,1 +1,5 @@
-*wet_test_pluggable_ui* is a plugin for "Textpattern CMS":http://textpattern.com/ which aids during the development of the core by responding to various 'pluggable_ui' hooks.
+h1. 301 Moved Permanently
+
+The repository has been moved to https://codeberg.org/rwetzlmayr/wet_test_pluggable_ui.
+
+This page is left as a placeholder to guide users to the new location.
